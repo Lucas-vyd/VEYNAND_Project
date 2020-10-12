@@ -1,4 +1,4 @@
-package ProjetLampe;
+
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -12,7 +12,7 @@ public class Principal {
 	//permet de lancer le jeu
 	public static void main(String[] args) {
 		
-		//on crée les 2 JPanel g à gauche qui contiendra les boutons et le nombre de coup et d à droite qui contient les lampes
+		//on crÃ©e les 2 JPanel g Ã  gauche qui contiendra les boutons et le nombre de coup et d Ã  droite qui contient les lampes
 		JPanel g = new JPanel();
 		JPanel d = new JPanel();
 		
@@ -22,12 +22,12 @@ public class Principal {
 		JFrame fenetre = new JFrame("Grille");
 		fenetre.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		VueGraphique vg=new VueGraphique();
-		//on insère toute les lampes dans le JPanel d
+		//on insÃ¨re toute les lampes dans le JPanel d
 		for(int i=0;i<25;i++) {
 			d.add(vg.tabl[i]);
 		}
 		
-		//on ajoute les boutons dans le JPanel à gauche
+		//on ajoute les boutons dans le JPanel Ã  gauche
 		g.add(vg.b1);
 		g.add(vg.b2);
 		g.add(vg.b3);
