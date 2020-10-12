@@ -1,0 +1,9 @@
+1.1 Labyrinthe par défaut
+test cases vides ou pleines
+test limites de map
+test personnage au milieu 
+
+1.2 Collision avec les murs
+test si on peut passer a traves d'un murs
+test si on peut sortir de la map
+test si on peut aller sur les cases vides

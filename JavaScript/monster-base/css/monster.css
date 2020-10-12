@@ -1,0 +1,46 @@
+.monster {
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+    margin-left: 50px;
+}
+
+#monster {
+    border-radius: 5px;
+    background-color: orange;
+    width: 100px;
+}
+
+#actionbox {
+    border: 1px solid grey;
+    width: 500px;
+    overflow: auto;
+}
+
+#actionbox > p {
+    margin: 0 ;
+}
+
+ul#status {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul#status li {
+    margin-left : 20px;
+}
+
+button {
+    width: 75px;
+    height: 40px;
+    background-color: deepskyblue;
+    border: 0;
+    margin-right: 8px;
+}
+
+button:hover {
+    background-color: dodgerblue;
+}
