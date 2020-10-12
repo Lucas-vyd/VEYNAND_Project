@@ -1,0 +1,102 @@
+.Maquette{
+	margin:0em auto 1.5em auto;
+    padding:3% 15% 3% 15%;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+.Grp{
+	margin:3em auto 1.5em auto;
+	align-items: center;
+	width:auto;
+}
+
+.Grp img{
+	border: 0.2em solid darkcyan;
+	margin: 0% 0% 0% 13%;
+	width: 75%;
+}
+
+.Grp span{
+	display: flex;
+	font-size: 1.3em;
+	justify-content: space-around;
+}
+
+.Limite{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 3em 0% 0% 0%;
+	text-align: center;
+	font-size: 1.3em;
+	border: 0.15em solid darkcyan;
+}
+
+.Theme{
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	margin: 8em 25% 0% 25%;
+	text-align: center;
+	font-size: 1.6em;
+	border: 0.15em solid darkcyan;
+	width:auto;
+}
+
+.developpeur{
+	margin:5em auto 1.5em auto;
+    padding:3% 15% 3% 15%;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+.texte{
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	text-align: center;
+	font-size: 2em;
+	color:darkcyan;
+	border: 0.15em solid darkcyan;
+}
+
+.Nous{
+	margin:3em auto 1.5em auto;
+	align-items: center;
+	width:auto;
+}
+
+.Nous img{
+	border: 0.2em solid darkcyan;
+	display: flex;
+	justify-content: space-around;
+	flex: 1;
+	width: 35%;
+}
+
+.Nous span{
+	font-size: 1.3em;
+}
+
+.Theme a{
+	text-align: center;
+	color: darkcyan;
+}
+
+.Theme a:visited{
+	color: coral;
+}
+
+.Theme a:active{
+	color: violet;
+}
+
+.Theme a:hover{
+	color: deeppink;
+	opacity: 0.4;
+}
+@media screen and (max-width: 1397px){
+
+.Maquette{
+	margin:2em auto 1.5em auto;
+}
+}

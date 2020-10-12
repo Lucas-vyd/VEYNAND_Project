@@ -1,0 +1,69 @@
+.Plus-vendus{
+	display: flex;
+	flex:1;
+	padding:1.3em 0em 0em 0em;
+	margin:1.5em 0% 0% 10%;
+	font-size: 4em;
+	font-weight: bold;
+	text-align:center;
+	color: darkcyan;
+}
+
+.Moins-vendus{
+	display: flex;
+	flex:1;
+	padding:0em 0em 0em 0em;
+	margin:0em 10% 1em auto;
+	font-size: 4em;
+	font-weight: bold;
+	text-align:center;
+	color: darkcyan;
+}
+
+.image-jeux{
+    width: 70%;
+    padding:3% 15% 3% 15%;
+    align-items: center;
+}
+
+.image-jeux{
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+.image-jeux  a{
+	margin:2% 2% 2% 2%;
+}
+
+.image-jeux a > img:active{
+	border-radius: 47%;
+	border: 0.2em solid coral;
+	opacity: 0.3;
+}
+
+.image-jeux a :hover{
+	border-radius: 47%;
+	border: 0.2em solid deeppink;
+	opacity: 0.5;
+}
+
+.image-jeux > a > img{
+	border-radius: 35%;
+	border: 0.2em solid darkcyan;
+	width: 90%;
+}
+
+@media screen and (max-width: 1397px){
+
+.Plus-vendus{
+	font-size: 3em;
+	margin:3em 0% 0% 10%;
+}
+
+.Moins-vendus{
+	font-size: 3em;
+}
+}

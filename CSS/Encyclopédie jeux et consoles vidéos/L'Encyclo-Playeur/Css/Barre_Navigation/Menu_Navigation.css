@@ -1,0 +1,106 @@
+html{
+	color: white;
+	font-family: Arial;
+}
+
+body {
+	background-image: url(../../Photo/Barre_Navigation/Noir.jfif);
+	display: flex;
+	flex-direction: column;
+}
+
+.fde{
+	width: 100%;
+	position: fixed;
+	top:0;
+	display:flex;
+	flex-direction: column;
+	background-image: url(../../Photo/Barre_Navigation/Pattern.jpg);
+}
+
+.menu-navigation{
+	margin: -1em 0em 0.2em 0em;
+	display: flex;
+	height: auto;	
+	width: 100%;
+	flex-direction: row;
+	
+}
+
+.menu-navigation a{
+	flex: 1;
+	text-align: center;
+	font-size: 2em;
+	color: darkcyan;
+}
+
+.menu-navigation a:visited{
+	color: coral;
+}
+
+.menu-navigation a:active{
+	background-color: black;
+	color: violet;
+}
+
+.menu-navigation a:hover{
+	color: deeppink;
+	background-color: white;
+	opacity: 0.4;
+}
+
+.logo{
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row-reverse;
+}
+
+.logo span{
+	font-weight: bold;
+	margin:0.2em 0.6em 0em 0em;
+	font-size: 4em;
+	color: white;
+}
+
+.logo img{
+	margin:0.3em 0em 0em 3em;
+	width: 7em;
+	height: auto;
+}
+
+
+body > footer{
+	display: flex;
+	background-image: url(../../Photo/Barre_Navigation/Pattern.jpg);
+	color: white;
+
+}
+
+footer{
+	padding:2em 0em 0em 0em;
+	font-size: 1.7em;
+	justify-content: space-around;
+	flex:1 6em;
+}
+
+@media screen and (max-width: 1397px){
+
+.logo span{
+margin:0.6em 0.6em 0em 0em;
+font-size: 3em;
+}
+
+.menu-navigation a{
+margin: 1em 0em 0em 0em;
+font-size: 1.5em;
+}
+
+}
+
+@media screen and (max-width: 550px){
+	.logo span{
+margin:1.5em 1em 0em 0em;
+font-size: 2.5em;
+}
+}

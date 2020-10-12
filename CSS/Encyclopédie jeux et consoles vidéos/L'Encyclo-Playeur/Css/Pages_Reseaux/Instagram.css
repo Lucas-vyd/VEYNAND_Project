@@ -1,0 +1,11 @@
+#aguicheur{
+	color: darkcyan;
+	padding:1.3em 0em 0em 0em;
+	font-weight: bold;
+	font-size: 4em;
+	display: flex;
+	flex:1;
+	justify-content: space-around;
+	margin:2em auto 1.5em auto;
+	text-align: center;
+}
