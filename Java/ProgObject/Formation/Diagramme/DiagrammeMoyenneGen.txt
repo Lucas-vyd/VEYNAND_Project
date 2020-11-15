@@ -1,0 +1,25 @@
+@startuml
+
+participant "Etudiant e" as e
+participant "Formation f" as f
+participant "Map<String, List<Float>> resultats" as res
+
+[-> e : calculerMoyenneGen()
+    e -> res : keySet()
+    activate res
+    e <-- res : matieres
+    deactivate res
+    loop mat : matieres
+        e -> f : getCoeff(mat)
+        activate f
+        e <-- f : coeff
+        deactivate f
+        e -> e : calculerMoyenneMatiere(mat)
+        activate e
+        e <-- e : moy
+        deactivate e
+    end
+ <-- e : moyenne
+
+
+@enduml
